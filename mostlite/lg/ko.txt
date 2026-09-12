@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=ko
+# name=한국어
+# name_en=Korean
+# native_name=한국어
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=폴더를 선택하세요
+prompt_file=파일을 선택하세요
+prompt_any=파일 또는 폴더를 선택하세요
+prompt_save=저장 폴더를 선택하세요
+prompt_partition=파티션을 선택하세요
+current_dir=현재 디렉터리
+access_mode=접근 모드
+access_ro=읽기 전용
+access_rw=읽기/쓰기
+ext_limit=형식 제한
+hidden_on=[숨김 파일 표시]
+selected_n={n}개 선택됨
+tips_base=[번호] 이동/선택  [s] 현재 선택  [s번호] 항목 전환  [b] 상위로  [r] 시작  [g] 파티션  [h] 숨김  [q] 취소
+tips_multi=
+  [a] 전체 선택  [c] 초기화  [d] 완료
+tips_manager=  작업: rm=삭제  cp=복사  ct=잘라내기  ps=붙여넣기  rn=이름변경  op=열기  at=속성  info=정보  ls=목록
+err_no_perm=! 권한이 없습니다.
+err_bad_num=! 범위를 벗어났습니다.
+err_bad_type=! 유형이 일치하지 않습니다.
+err_no_pick=! 아무 것도 선택되지 않았습니다.
+err_not_exist=! 경로가 없습니다.
+err_dir_mismatch=! 현재 폴더가 조건과 맞지 않습니다.
+err_file_mismatch=! 파일이 조건과 맞지 않습니다.
+ask_admin=관리자로 실행되지 않았습니다. 권한을 요청할까요?
+ask_root=root로 실행되지 않았습니다. root 권한을 요청할까요?
+no_root=[cfdialog] root(su)를 사용할 수 없습니다.
+elevate_failed=[cfdialog] 권한 상승 실패: {msg}
+elevate_denied=[cfdialog] 사용자가 거부했습니다.
+input_end=입력 종료
+user_cancel=취소되었습니다
+free_name_prompt=파일 이름 (비우면 기본값)
+default_is=기본: {name}
+readonly_denied=! 읽기 전용 모드: 이 작업은 비활성화되었습니다.
+nothing_sel=! 아무 것도 선택되지 않았습니다.
+must_one=! 정확히 1개를 선택하세요.
+confirm_delete={n}개를 삭제할까요?
+deleted_ok={n}개 삭제됨.
+clip_copied={n}개를 복사했습니다.
+clip_cut={n}개를 잘라냈습니다.
+clip_empty=! 클립보드가 비어 있습니다.
+pasted_ok={n}개를 붙여넣었습니다.
+renamed_ok=이름변경: {old} -> {new}
+opened_ok=열림: {path}
+attr_hdr={name} 속성
+attr_ro=읽기 전용
+attr_hidden=숨김
+attr_size=크기
+attr_mtime=수정 시간
+attr_toggle_ro=읽기 전용 전환
+attr_toggle_hidden=숨김 전환 (Windows 전용)
+attr_done=완료.
+no_partitions=! 파티션이 없습니다.
+enter_num_or_q=번호를 입력하거나 q로 취소: 
+yes_no_prompt=[y/N]: 
+mode_path=경로만
+mode_copy=복사
+work_dir=작업 디렉터리
+prompt_rename=새 이름
+prompt_lang_code=언어 코드 (예: de, ru, pt_BR)
+prompt_lang_name=언어 표시 이름
+prompt_ref_lang=참조 언어 (zh_CN 또는 en)
+prompt_skip=Enter로 영어 폴백 유지

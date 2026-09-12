@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=ja
+# name=日本語
+# name_en=Japanese
+# native_name=日本語
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=フォルダを選択してください
+prompt_file=ファイルを選択してください
+prompt_any=ファイルまたはフォルダを選択
+prompt_save=保存先フォルダを選択
+prompt_partition=パーティションを選択
+current_dir=現在のディレクトリ
+access_mode=アクセスモード
+access_ro=読み取り専用
+access_rw=読み書き
+ext_limit=形式制限
+hidden_on=[隠しファイルを表示]
+selected_n={n} 件選択中
+tips_base=[番号] 移動/選択  [s] 現在を選択  [s番号] 切り替え  [b] 上へ  [r] 開始位置  [g] パーティション  [h] 隠し  [q] 取消
+tips_multi=
+  [a] 全選択  [c] クリア  [d] 完了
+tips_manager=  操作: rm=削除  cp=コピー  ct=切り取り  ps=貼り付け  rn=名前変更  op=開く  at=属性  info=情報  ls=一覧
+err_no_perm=! 権限がありません。
+err_bad_num=! 範囲外です。
+err_bad_type=! 種類が一致しません。
+err_no_pick=! 何も選択されていません。
+err_not_exist=! パスが存在しません。
+err_dir_mismatch=! 現在のフォルダは条件に合いません。
+err_file_mismatch=! ファイルが条件に合いません。
+ask_admin=管理者として実行されていません。昇格しますか？
+ask_root=root として実行されていません。root 権限を要求しますか？
+no_root=[cfdialog] root（su）が利用できません。
+elevate_failed=[cfdialog] 昇格に失敗: {msg}
+elevate_denied=[cfdialog] ユーザーが拒否しました。
+input_end=入力終了
+user_cancel=キャンセルされました
+free_name_prompt=ファイル名（空欄で既定名）
+default_is=既定: {name}
+readonly_denied=! 読み取り専用モード: この操作は無効です。
+nothing_sel=! 何も選択されていません。
+must_one=! ちょうど 1 件選択してください。
+confirm_delete={n} 件を削除しますか？
+deleted_ok={n} 件を削除しました。
+clip_copied={n} 件をコピーしました。
+clip_cut={n} 件を切り取りました。
+clip_empty=! クリップボードが空です。
+pasted_ok={n} 件を貼り付けました。
+renamed_ok=名前変更: {old} -> {new}
+opened_ok=開きました: {path}
+attr_hdr={name} の属性
+attr_ro=読み取り専用
+attr_hidden=隠し
+attr_size=サイズ
+attr_mtime=更新日時
+attr_toggle_ro=読み取り専用を切替
+attr_toggle_hidden=隠しを切替（Windows のみ）
+attr_done=完了。
+no_partitions=! パーティションが見つかりません。
+enter_num_or_q=番号を入力、q でキャンセル: 
+yes_no_prompt=[y/N]: 
+mode_path=パスのみ
+mode_copy=コピー
+work_dir=作業ディレクトリ
+prompt_rename=新しい名前
+prompt_lang_code=言語コード（例: de, ru, pt_BR）
+prompt_lang_name=言語表示名
+prompt_ref_lang=参照言語（zh_CN または en）
+prompt_skip=Enter で英語のフォールバックを保持
