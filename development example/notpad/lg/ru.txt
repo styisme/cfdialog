@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=ru
+# name=Русский
+# name_en=Russian
+# native_name=Русский
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=Выберите папку
+prompt_file=Выберите файл
+prompt_any=Выберите файл или папку
+prompt_save=Выберите папку назначения
+prompt_partition=Выберите раздел
+current_dir=Текущий каталог
+access_mode=Режим доступа
+access_ro=только чтение
+access_rw=чтение-запись
+ext_limit=Ограничение формата
+hidden_on=[Скрытые файлы показаны]
+selected_n=Выбрано: {n}
+tips_base=[№] Войти/Выбрать  [s] Текущий  [s№] Переключить  [b] Назад  [r] Старт  [g] Раздел  [h] Скрытые  [q] Отмена
+tips_multi=
+  [a] Все  [c] Очистить  [d] Готово
+tips_manager=  опер: rm=удалить  cp=копировать  ct=вырезать  ps=вставить  rn=переименовать  op=открыть  at=атрибуты  info=инфо  ls=список
+err_no_perm=! Нет доступа к каталогу.
+err_bad_num=! Номер вне диапазона.
+err_bad_type=! Тип не соответствует.
+err_no_pick=! Ничего не выбрано.
+err_not_exist=! Путь не существует.
+err_dir_mismatch=! Каталог не соответствует условию.
+err_file_mismatch=! Файл не соответствует условию.
+ask_admin=Не запущено от имени администратора. Повысить права?
+ask_root=Не запущено от root. Запросить root?
+no_root=[cfdialog] su недоступен, повышение пропущено.
+elevate_failed=[cfdialog] Ошибка повышения: {msg}
+elevate_denied=[cfdialog] Отказано пользователем.
+input_end=Ввод завершён
+user_cancel=Отменено пользователем
+free_name_prompt=Имя файла (пусто = по умолчанию)
+default_is=по умолчанию: {name}
+readonly_denied=! Только чтение: действие отключено.
+nothing_sel=! Ничего не выбрано.
+must_one=! Выберите ровно один элемент.
+confirm_delete=Удалить {n} элемент(ов)?
+deleted_ok=Удалено: {n}.
+clip_copied=Скопировано в буфер: {n}.
+clip_cut=Вырезано в буфер: {n}.
+clip_empty=! Буфер обмена пуст.
+pasted_ok=Вставлено: {n}.
+renamed_ok=Переименовано: {old} -> {new}
+opened_ok=Открыто: {path}
+attr_hdr=Атрибуты {name}
+attr_ro=только чтение
+attr_hidden=скрытый
+attr_size=размер
+attr_mtime=изменён
+attr_toggle_ro=переключить только чтение
+attr_toggle_hidden=переключить скрытый (только Windows)
+attr_done=Готово.
+no_partitions=! Разделы не найдены.
+enter_num_or_q=Введите номер или q для отмены: 
+yes_no_prompt=[y/N]: 
+mode_path=только путь
+mode_copy=копирование
+work_dir=рабочий каталог
+prompt_rename=Новое имя
+prompt_lang_code=Код языка (напр. de, ru, pt_BR)
+prompt_lang_name=Отображаемое имя
+prompt_ref_lang=Опорный язык (zh_CN или en)
+prompt_skip=Enter — оставить английский

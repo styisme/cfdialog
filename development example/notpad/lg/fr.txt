@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=fr
+# name=Français
+# name_en=French
+# native_name=Français
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=Sélectionnez un dossier
+prompt_file=Sélectionnez un fichier
+prompt_any=Sélectionnez un fichier ou un dossier
+prompt_save=Sélectionnez le dossier cible
+prompt_partition=Sélectionnez une partition
+current_dir=Répertoire actuel
+access_mode=Mode d'accès
+access_ro=lecture seule
+access_rw=lecture-écriture
+ext_limit=Limite de format
+hidden_on=[Fichiers cachés affichés]
+selected_n={n} élément(s) sélectionné(s)
+tips_base=[num] Entrer/Choisir  [s] Sélectionner l'actuel  [s<num>] Basculer  [b] Retour  [r] Début  [g] Partition  [h] Cachés  [q] Annuler
+tips_multi=
+  [a] Tout  [c] Vider  [d] Terminer
+tips_manager=  ops: rm=supprimer  cp=copier  ct=couper  ps=coller  rn=renommer  op=ouvrir  at=attributs  info=info  ls=liste
+err_no_perm=! Aucune permission.
+err_bad_num=! Numéro hors plage.
+err_bad_type=! Type incompatible.
+err_no_pick=! Rien de sélectionné.
+err_not_exist=! Le chemin n'existe pas.
+err_dir_mismatch=! Dossier incompatible.
+err_file_mismatch=! Fichier incompatible.
+ask_admin=Pas administrateur. Demander l'élévation ?
+ask_root=Pas root. Demander les droits root ?
+no_root=[cfdialog] Aucun su disponible.
+elevate_failed=[cfdialog] Échec: {msg}
+elevate_denied=[cfdialog] Refusé par l'utilisateur.
+input_end=Fin de saisie
+user_cancel=Annulé
+free_name_prompt=Nom de fichier (vide = défaut)
+default_is=défaut: {name}
+readonly_denied=! Mode lecture seule: action désactivée.
+nothing_sel=! Rien de sélectionné.
+must_one=! Sélectionnez exactement un élément.
+confirm_delete=Supprimer {n} élément(s) ?
+deleted_ok={n} élément(s) supprimé(s).
+clip_copied={n} élément(s) copié(s).
+clip_cut={n} élément(s) coupé(s).
+clip_empty=! Presse-papiers vide.
+pasted_ok={n} élément(s) collé(s).
+renamed_ok=Renommé: {old} -> {new}
+opened_ok=Ouvert: {path}
+attr_hdr=Attributs de {name}
+attr_ro=lecture seule
+attr_hidden=caché
+attr_size=taille
+attr_mtime=modifié
+attr_toggle_ro=basculer lecture seule
+attr_toggle_hidden=basculer caché (Windows)
+attr_done=Terminé.
+no_partitions=! Aucune partition.
+enter_num_or_q=Entrez un numéro ou q: 
+yes_no_prompt=[y/N]: 
+mode_path=chemin seulement
+mode_copy=copie
+work_dir=répertoire de travail
+prompt_rename=Nouveau nom
+prompt_lang_code=Code langue (ex: de, ru, pt_BR)
+prompt_lang_name=Nom affiché
+prompt_ref_lang=Langue de référence (zh_CN ou en)
+prompt_skip=Entrée pour garder l'anglais

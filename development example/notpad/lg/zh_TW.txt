@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=zh_TW
+# name=繁體中文
+# name_en=Traditional Chinese
+# native_name=繁體中文
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=請選擇資料夾
+prompt_file=請選擇檔案
+prompt_any=請選擇檔案或資料夾
+prompt_save=請選擇目標資料夾
+prompt_partition=請選擇分區
+current_dir=目前目錄
+access_mode=存取模式
+access_ro=唯讀
+access_rw=讀寫
+ext_limit=格式限制
+hidden_on=[顯示隱藏檔案]
+selected_n=已選 {n} 項
+tips_base=[編號] 進入/選擇   [s] 選取目前   [s編號] 切換項目   [b] 返回上層   [r] 回到起點   [g] 切換分區   [h] 隱藏   [q] 取消
+tips_multi=
+  [a] 全選   [c] 清空   [d] 完成
+tips_manager=  操作: rm=刪除  cp=複製  ct=剪下  ps=貼上  rn=重新命名  op=開啟  at=屬性  info=資訊  ls=列表
+err_no_perm=! 沒有權限讀取目前目錄。
+err_bad_num=! 編號超出範圍。
+err_bad_type=! 項目類型不符合選取要求。
+err_no_pick=! 尚未選取任何項目。
+err_not_exist=! 路徑不存在。
+err_dir_mismatch=! 目前目錄不符合選取類型。
+err_file_mismatch=! 該檔案不符合選取要求。
+ask_admin=目前未以系統管理員身分執行，是否要提權？
+ask_root=目前未以 root 執行，是否要取得 root 權限？
+no_root=[cfdialog] 未偵測到 root（su 無法使用），略過提權。
+elevate_failed=[cfdialog] 提權失敗：{msg}
+elevate_denied=[cfdialog] 使用者拒絕了提權請求。
+input_end=輸入結束
+user_cancel=使用者取消選取
+free_name_prompt=檔案名稱（留空使用預設）
+default_is=預設: {name}
+readonly_denied=! 唯讀模式：此操作已停用。
+nothing_sel=! 未選取任何項目。
+must_one=! 請恰好選取一項。
+confirm_delete=確認刪除 {n} 個項目？
+deleted_ok=已刪除 {n} 個項目。
+clip_copied=已複製 {n} 個項目到剪貼簿。
+clip_cut=已剪下 {n} 個項目到剪貼簿。
+clip_empty=! 剪貼簿為空。
+pasted_ok=已貼上 {n} 個項目。
+renamed_ok=已重新命名: {old} -> {new}
+opened_ok=已開啟: {path}
+attr_hdr={name} 的屬性
+attr_ro=唯讀
+attr_hidden=隱藏
+attr_size=大小
+attr_mtime=修改時間
+attr_toggle_ro=切換唯讀
+attr_toggle_hidden=切換隱藏（僅 Windows）
+attr_done=完成。
+no_partitions=! 未找到分區。
+enter_num_or_q=輸入編號或 q 取消: 
+yes_no_prompt=[y/N]: 
+mode_path=路徑模式
+mode_copy=複製模式
+work_dir=工作目錄
+prompt_rename=新名稱
+prompt_lang_code=系統語言代碼（例如 de、ru、pt_BR）
+prompt_lang_name=語言顯示名稱
+prompt_ref_lang=參考語言（zh_CN 或 en）
+prompt_skip=直接回車保留英語回退
