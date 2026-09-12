@@ -1,0 +1,16 @@
+# cfdialog debug config
+# 位置: 库目录 / ts.txt
+#
+# 说明:
+#   log=true|false           是否开启 log 保存
+#   log_dir=log              log 目录（相对于库目录）
+#   force_language=zh_CN     强制语言代码；none 或留空 = 不强制
+#
+# 强制语言的优先级最高，会覆盖：
+#   - 系统自动检测的语言
+#   - 调用库的程序用 set_language() 设置的语言
+#   - pick/save/file_manager 时传的 lang= 参数
+
+log=false
+log_dir=log
+#force_language=zh_cn
