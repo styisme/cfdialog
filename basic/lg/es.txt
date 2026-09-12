@@ -1,0 +1,73 @@
+# cfdialog language pack
+# code=es
+# name=Español
+# name_en=Spanish
+# native_name=Español
+#
+# Format:
+#   # key=value    metadata (ignored by runtime)
+#   key=value      string
+#
+
+prompt_folder=Selecciona una carpeta
+prompt_file=Selecciona un archivo
+prompt_any=Selecciona un archivo o carpeta
+prompt_save=Selecciona la carpeta destino
+prompt_partition=Selecciona una partición
+current_dir=Directorio actual
+access_mode=Modo de acceso
+access_ro=solo lectura
+access_rw=lectura-escritura
+ext_limit=Límite de formato
+hidden_on=[Archivos ocultos mostrados]
+selected_n={n} elemento(s) seleccionado(s)
+tips_base=[num] Entrar/Elegir  [s] Seleccionar actual  [s<num>] Alternar  [b] Atrás  [r] Inicio  [g] Partición  [h] Ocultos  [q] Cancelar
+tips_multi=
+  [a] Todo  [c] Limpiar  [d] Listo
+tips_manager=  ops: rm=borrar  cp=copiar  ct=cortar  ps=pegar  rn=renombrar  op=abrir  at=atributos  info=info  ls=listar
+err_no_perm=! Sin permisos.
+err_bad_num=! Número fuera de rango.
+err_bad_type=! Tipo incompatible.
+err_no_pick=! Nada seleccionado.
+err_not_exist=! La ruta no existe.
+err_dir_mismatch=! Carpeta incompatible.
+err_file_mismatch=! Archivo incompatible.
+ask_admin=No es administrador. ¿Solicitar elevación?
+ask_root=No es root. ¿Solicitar permisos root?
+no_root=[cfdialog] su no disponible.
+elevate_failed=[cfdialog] Error de elevación: {msg}
+elevate_denied=[cfdialog] Denegado por el usuario.
+input_end=Entrada finalizada
+user_cancel=Cancelado por el usuario
+free_name_prompt=Nombre del archivo (vacío = predeterminado)
+default_is=predeterminado: {name}
+readonly_denied=! Solo lectura: acción deshabilitada.
+nothing_sel=! Nada seleccionado.
+must_one=! Selecciona exactamente un elemento.
+confirm_delete=¿Borrar {n} elemento(s)?
+deleted_ok=Borrados: {n}.
+clip_copied={n} elemento(s) copiado(s).
+clip_cut={n} elemento(s) cortado(s).
+clip_empty=! Portapapeles vacío.
+pasted_ok={n} elemento(s) pegado(s).
+renamed_ok=Renombrado: {old} -> {new}
+opened_ok=Abierto: {path}
+attr_hdr=Atributos de {name}
+attr_ro=solo lectura
+attr_hidden=oculto
+attr_size=tamaño
+attr_mtime=modificado
+attr_toggle_ro=alternar solo lectura
+attr_toggle_hidden=alternar oculto (solo Windows)
+attr_done=Listo.
+no_partitions=! Sin particiones.
+enter_num_or_q=Introduce un número o q: 
+yes_no_prompt=[y/N]: 
+mode_path=solo ruta
+mode_copy=copia
+work_dir=directorio de trabajo
+prompt_rename=Nuevo nombre
+prompt_lang_code=Código de idioma (p. ej. de, ru, pt_BR)
+prompt_lang_name=Nombre visible
+prompt_ref_lang=Idioma de referencia (zh_CN o en)
+prompt_skip=Intro para mantener inglés
