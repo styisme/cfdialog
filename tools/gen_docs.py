@@ -1583,7 +1583,11 @@ def main(argv: List[str] = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    out_dir = Path(args.out).expanduser().resolve()
+    # patched: "." means repo root, not CWD
+    if args.out == ".":
+        out_dir = Path(__file__).resolve().parent.parent
+    else:
+        out_dir = Path(args.out).expanduser().resolve()
     written = generate(out_dir, only=args.only)
 
     print(f"Generated {len(written)} file(s) in {out_dir}:")

@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 from typing import List, Optional
 
-THIS_DIR = Path(__file__).resolve().parent
+THIS_DIR = Path(__file__).resolve().parent.parent
 
 # ---- 尽量从库导入；失败时退化到内置最小集 ----
 try:

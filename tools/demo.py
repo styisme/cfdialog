@@ -44,7 +44,7 @@ from typing import Callable, List, Optional
 # 定位并导入 cfdialog
 # ---------------------------------------------------------------------------
 
-THIS_DIR = Path(__file__).resolve().parent
+THIS_DIR = Path(__file__).resolve().parent.parent
 if str(THIS_DIR) not in sys.path:
     sys.path.insert(0, str(THIS_DIR))
 

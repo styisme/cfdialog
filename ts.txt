@@ -13,4 +13,4 @@
 
 log=false
 log_dir=log
-#force_language=zh_cn
+# force_language=zh_cn

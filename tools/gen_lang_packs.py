@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 # ---- 定位库目录 ----
-THIS_DIR = Path(__file__).resolve().parent
+THIS_DIR = Path(__file__).resolve().parent.parent
 
 try:
     sys.path.insert(0, str(THIS_DIR))

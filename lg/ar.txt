@@ -1,0 +1,70 @@
+# cfdialog language pack
+# code=ar
+# name=العربية
+# name_en=Arabic
+# native_name=العربية
+#
+# Placeholder pack: prompt_* are Arabic; other keys fall back to English.
+# Improve with: python tools/make_custom_lang.py --code ar --ref en
+
+prompt_folder=اختر مجلدًا
+prompt_file=اختر ملفًا
+prompt_any=اختر ملفًا أو مجلدًا
+prompt_save=اختر المجلد المستهدف
+prompt_partition=اختر قسمًا
+current_dir=المجلد الحالي
+access_mode=وضع الوصول
+access_ro=قراءة فقط
+access_rw=قراءة وكتابة
+ext_limit=تقييد التنسيق
+hidden_on=[تم إظهار الملفات المخفية]
+selected_n=المحدد: {n}
+tips_base=[num] Enter/Pick  [s] Pick current  [s<num>] Toggle item  [b] Back  [r] Start  [g] Partition  [h] Hidden  [q] Cancel
+tips_multi=   [a] Select all  [c] Clear  [d] Done
+tips_manager=  ops: rm=delete  cp=copy  ct=cut  ps=paste  rn=rename  op=open  at=attr  info=info  ls=list
+err_no_perm=! لا توجد صلاحية لقراءة هذا المجلد.
+err_bad_num=! الرقم خارج النطاق.
+err_bad_type=! Item type does not match selection.
+err_no_pick=! Nothing selected yet.
+err_not_exist=! المسار غير موجود.
+err_dir_mismatch=! Current directory does not match selection type.
+err_file_mismatch=! File does not match selection type.
+ask_admin=Not running as administrator. Request elevation?
+ask_root=Not running as root. Request root access?
+no_root=[cfdialog] No su available, skipping elevation.
+elevate_failed=[cfdialog] Elevation failed: {msg}
+elevate_denied=[cfdialog] Elevation denied by user.
+input_end=انتهى الإدخال
+user_cancel=تم الإلغاء
+free_name_prompt=اسم الملف (فارغ = الافتراضي)
+default_is=الافتراضي: {name}
+readonly_denied=! وضع القراءة فقط: هذا الإجراء معطل.
+nothing_sel=! لم يتم تحديد أي عنصر.
+must_one=! حدد عنصرًا واحدًا بالضبط.
+confirm_delete=حذف {n} عنصر؟
+deleted_ok=تم الحذف: {n}.
+clip_copied=تم النسخ إلى الحافظة: {n}.
+clip_cut=تم القص إلى الحافظة: {n}.
+clip_empty=! الحافظة فارغة.
+pasted_ok=تم اللصق: {n}.
+renamed_ok=تمت إعادة التسمية: {old} -> {new}
+opened_ok=تم الفتح: {path}
+attr_hdr=خصائص {name}
+attr_ro=قراءة فقط
+attr_hidden=مخفي
+attr_size=الحجم
+attr_mtime=تاريخ التعديل
+attr_toggle_ro=toggle read-only
+attr_toggle_hidden=toggle hidden (Windows only)
+attr_done=تم.
+no_partitions=! لم يتم العثور على أقسام.
+enter_num_or_q=أدخل رقمًا أو q للإلغاء:
+yes_no_prompt=[y/N]:
+mode_path=path mode
+mode_copy=copy mode
+work_dir=work directory
+prompt_rename=New name
+prompt_lang_code=System language code (e.g. de, ru, pt_BR)
+prompt_lang_name=Language display name
+prompt_ref_lang=Reference language (zh_CN or en)
+prompt_skip=Press Enter to keep English fallback

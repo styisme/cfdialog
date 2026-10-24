@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfdialog"
+version = "0.3.0"
+description = "Single-file, zero-dependency, cross-platform CLI file dialog library"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "styisme" }]
+keywords = ["cli", "file-dialog", "terminal", "android", "termux"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+
+[tool.setuptools]
+py-modules = ["cfdialog"]
+
+[tool.setuptools.package-data]
+cfdialog = ["lg/*.txt", "ts.txt"]
