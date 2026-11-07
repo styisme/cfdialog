@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    # 本项目运行时零依赖；只监控 dev / CI 工具
+    allow:
+      - dependency-name: "ruff"
+      - dependency-name: "coverage"
+      - dependency-name: "build"
+      - dependency-name: "pre-commit"

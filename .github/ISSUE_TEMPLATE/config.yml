@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/styisme/cfdialog/blob/main/README.md
+    about: Read the README (中文) and README_EN before opening an issue.
+  - name: Developer docs
+    url: https://github.com/styisme/cfdialog/blob/main/DEVELOPMENT.md
+    about: Design notes, internals, and extension guides.
+  - name: AI disclosure
+    url: https://github.com/styisme/cfdialog/blob/main/docs/AI_DISCLOSURE.md
+    about: How AI was used in this project, and its known limitations.

@@ -1,0 +1,8 @@
+# 默认：所有路径由仓库 owner 审阅
+* @styisme
+
+# 安全相关：改动必须 owner 审阅
+/SECURITY.md @styisme
+/.github/workflows/ @styisme
+/.github/ISSUE_TEMPLATE/ @styisme
+/tools/bugreport.py @styisme

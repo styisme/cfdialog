@@ -21,3 +21,15 @@ dist/*.zip
 
 # backups
 *.bak
+
+# Python cache
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# build artifacts
+dist/*.whl
+dist/*.tar.gz
+build/

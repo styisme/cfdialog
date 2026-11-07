@@ -1,0 +1,124 @@
+name: Bug Report
+description: Report a reproducible problem with cfdialog
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you submit**
+        - Search existing issues first.
+        - Run `python tools/bugreport.py` in the repo root and paste its output into the "Environment" field below.
+        - Review the log excerpt before pasting — it may contain local paths.
+
+  - type: input
+    id: version
+    attributes:
+      label: cfdialog version
+      description: From `pyproject.toml`, `README.md` badge, or `git describe --tags`
+      placeholder: "0.3.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - Linux
+        - Windows
+        - macOS
+        - Android / Termux
+        - Android / Pydroid 3
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      description: Output of `python --version`
+      placeholder: "3.12.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      multiple: true
+      options:
+        - pick_file / pick_folder / pick
+        - save / save_folder
+        - file_manager
+        - Language / i18n (lg/*.txt)
+        - Elevation (Windows UAC / Android su / sudo)
+        - Partitions (list_partitions)
+        - Debug config (ts.txt)
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Paste the output of `python tools/bugreport.py`
+      render: text
+      placeholder: |
+        === cfdialog bugreport ===
+        platform : ...
+        python   : ...
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the traceback if any
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log excerpt (optional)
+      description: Tail of `log/YYYYMMDD.txt`, only if `ts.txt` has `log=true`
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I ran `python -m unittest discover -s tests -v` and it passed
+          required: false
+        - label: I ran `python tools/demo.py --list-langs` and it passed
+          required: false
+        - label: I reviewed the log excerpt for local paths before pasting
+          required: true
