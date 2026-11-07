@@ -120,7 +120,7 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
       - name: Upload demo output
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: demo-auto-output
           path: ${{ runner.temp }}/demo-auto.log
